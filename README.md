@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Text to Image using openai
 
-## Getting Started
+Both the client-side and server-side are uploaded here to provide the code only. It is not deployed anywhere.
 
-First, run the development server:
+[Youtube]('https://www.youtube.com/channel/UCWCAPNPlxFFDv_ESS-K4zZw') |
+[Instagram]('https://instagram.com/ig_codez')
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## How to use this repository in your device
+
+- Clone this repository
+- Open the clone folder in any code editor like VS code or any other.
+
+### Client side
+
+- --
+
+- Open a new terminal and type `cd client`
+- type npm install *To install all the dependencies*
+- Now run the app using `npm run dev`
+
+### Server side
+
+- --
+
+- Open the new terminal again (2nd one)
+- Type npm install
+- Go to the OpenAi official website. [OpenAi]('https://openai.com/api/') and create a new account.
+- Go to the profile and there go to `View API keys` page.
+- Click on `Create new secret key`
+- Copy the key.
+- Now inside the server folder create a new file `.env`
+- inside `.env` type the following:
+
+``` javascript
+OPENAI_API_KEY: "YOUR API KEY"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Now type in the terminal `npm run dev`.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+`Note` - If server is already running at 5000 or 3000 PORT then change the PORT.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`Thank You` - [@ezfrontendlive]('https://www.youtube.com/channel/UCWCAPNPlxFFDv_ESS-K4zZw') yt channel
